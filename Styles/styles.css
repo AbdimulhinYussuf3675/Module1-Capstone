@@ -114,6 +114,15 @@
   max-height: 36px;
 }
 
+.top-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.licence {
+  font-weight: 400;
+}
+
 .card-icon img {
   height: 100%;
 }
@@ -161,6 +170,115 @@
   gap: 40px;
 }
 
+.info {
+  padding: 130px 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: inherit;
+  background-image: url(../Images/Nav/photo-1528459801416-a9e53bbf4e17.avif);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.data {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.description {
+  padding: 16px;
+  border: 2px solid var(--white-color);
+  color: var(--black-color);
+}
+
+.para {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.jeblow {
+  font-size: 30px;
+  color: #ec5242;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.program {
+  background-image: url(../Images/program.jpg);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+
+}
+
+.heading {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  border: 1px solid var(--red-color);
+  background-color: var(--red-color);
+  width: 26px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding: 32px 0;
+}
+
+.card {
+  background-color: rgba(60, 63, 70, 0.8);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  line-height: 1.4em;
+  height: 115px;
+}
+
+.prog-card {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+}
+
+.card-descri {
+  width: 50%;
+}
+
+.prog-card h2 {
+  color: var(--red-color);
+  white-space: normal;
+}
+
+.prog-card img {
+  width: 60px;
+}
+
+.more {
+  text-decoration: none;
+  text-align: center;
+  padding: 30px;
+}
+
+.more a {
+  color: #fff;
+}
+
+
+
 
 /* desktop version */
 @media all and (min-width: 768px) {
@@ -182,7 +300,7 @@
   .header-main {
     background-color: var(--white-color);
     box-shadow:
-    0 10px 27px rgba(0, 0, 0, 0.05);
+      0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
   .nav-mobile {
@@ -197,10 +315,14 @@
     padding: 0 17px;
     color: rgb(238, 224, 224);
   }
-  
+
   .bottom-nav li a:hover {
     color: rgb(255, 81, 0);
-  }  
+  }
 
-  
+  .info {
+    margin-top: 10px;
+  }
+
+
 }

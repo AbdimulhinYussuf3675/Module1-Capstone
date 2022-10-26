@@ -267,6 +267,14 @@ hr {
   width: 60px;
 }
 
+.claim-comment h4 {
+  color: var(--red-color);
+  font-size: 1em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.2em;
+}
+
 .more {
   text-decoration: none;
   text-align: center;
@@ -276,6 +284,67 @@ hr {
 .more a {
   color: #fff;
 }
+.comment-btn button img {
+  width: 20px;
+}
+
+#claims {
+  padding-top: 95px;
+}
+
+.claim-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.comment-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-title hr {
+  width: 80px;
+}
+
+.comment-title h2 {
+  color: var(--black-color);
+  
+}
+
+.claim-card {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+}
+.events-title p {
+  line-height: 1.5em;
+  padding: 16px 0;
+}
+
+.comment-btn button {
+  background-color: transparent;
+  width: 100%;
+  padding: 16px;
+  border: 2px solid var(--grey-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  
+}
+
+.claim-container div:nth-child(3),
+.claim-container div:nth-child(4),
+.claim-container div:nth-child(5),
+.claim-container div:nth-child(6) {
+  display: none;
+}
+
 
 
 

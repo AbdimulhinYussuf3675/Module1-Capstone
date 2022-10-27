@@ -12,7 +12,7 @@
 - Linters
 - JavaScript
 
-## Live Demo [link](https://abdimulhinyussuf3675.github.io/Module1-Capstone/)
+## Live Demo
 
 
 ## Getting Started

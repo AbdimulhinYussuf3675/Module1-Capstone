@@ -478,7 +478,6 @@ footer {
   .card-descri p {
     padding-top: 10px;
     text-align: center;
-    display: inline;
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }

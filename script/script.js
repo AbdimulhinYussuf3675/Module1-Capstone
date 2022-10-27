@@ -1,7 +1,7 @@
 const claimObjs = [{
   name: 'Hassan Abdi',
   comment: 'If you have some events and want to hire its coverage just try Adam Studio, you will have experience on your own',
-  work: 'Graphic Designer',  
+  work: 'Graphic Designer',
   imgsrc: 'Images/Nav/4.png',
   imgdescription: 'person1',
 },

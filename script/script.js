@@ -94,7 +94,7 @@ if (showMoreBtn !== null) {
     if (claims[2].style.display === 'none') {
       showMoreBtn.innerHTML = 'MORE <img src="/Images/Nav/less.png" alt="down icon">';
     } else {
-      showMoreBtn.innerHTML = 'LESS <img src="/Images/Nav/more.jpeg" alt="down icon">';
+      showMoreBtn.innerHTML = 'LESS <img src="/Module1-Capstone/Images/Nav/more.jpeg" alt="down icon">';
     }
   });
 }
